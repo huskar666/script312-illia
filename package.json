@@ -1,0 +1,17 @@
+{
+  "name": "parcel-project",
+  "version": "1.0.0",
+  "description": "Mini Parcel App",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://your-username.github.io/parcel-project",
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "parcel": "^2.10.0"
+  }
+}
